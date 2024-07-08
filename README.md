@@ -5,3 +5,7 @@
 ## Acesse o curso
 
 [![100 Days of Code - Udemy](https://img-b.udemycdn.com/course/240x135/2776760_f176_10.jpg)](https://www.udemy.com/course/100-days-of-code/)
+
+## Sobre este repositório
+
+Este repositório contém todos os códigos, anotações e materiais adicionais desenvolvidos durante o curso. Ele serve como uma fonte de consulta e referência para ajudar a acompanhar o progresso e revisar conceitos conforme necessário.
