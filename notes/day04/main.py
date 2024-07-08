@@ -58,34 +58,56 @@
 
 # Definição: estrutura de dados que permite armazenar uma coleção de itens em uma única variável. 
 # As listas são mutáveis, o que significa que podem ser modificadas após serem criadas.
+# A listas começam, em Python, em 0.
 
-exemploLista = [ 
-    'Acre', 
-    'Alagoas',
-    'Amapá',
-    'Amazonas',
-    'Bahia',
-    'Ceará',
-    'Distrito Federal',
-    'Espírito Santo',
-    'Goiás',
-    'Maranhão',
-    'Mato Grosso',
-    'Mato Grosso do Sul',
-    'Minas Gerais',
-    'Pará',
-    'Paraíba',
-    'Paraná',
-    'Pernambuco',
-    'Piauí',
-    'Rio de Janeiro',
-    'Rio Grande do Norte',
-    'Rio Grande do Sul',
-    'Rondônia',
-    'Roraima',
-    'São Paulo',
-    'Sergipe',
-    'Tocantins'
-]
+# estadosBrasil = [ 
+#     'Acre', 
+#     'Alagoas',
+#     'Amapá',
+#     'Amazonas',
+#     'Bahia',
+#     'Ceará',
+#     'Distrito Federal',
+#     'Espírito Santo',
+#     'Goiás',
+#     'Maranhão',
+#     'Mato Grosso',
+#     'Mato Grosso do Sul',
+#     'Minas Gerais',
+#     'Pará',
+#     'Paraíba',
+#     'Paraná',
+#     'Pernambuco',
+#     'Piauí',
+#     'Rio de Janeiro',
+#     'Rio Grande do Norte',
+#     'Rio Grande do Sul',
+#     'Rondônia',
+#     'Roraima',
+#     'São Paulo',
+#     'Sergipe',
+#     'Tocantins'
+# ]
 
-print(exemploLista[12])
+# estadosBrasil[4] = "Vitória"
+
+# # Adicionar elemento à lista
+
+# # estadosBrasil.append("Fragaland") # Acrescenta um item ao FINAL da lista
+# estadosBrasil.extend(["FragaLand", "Sítio Santa Rita", "Ragna Sky", "Bento Land"])
+
+# print(estadosBrasil)
+
+## Quem vai pagar a conta?
+
+import random 
+
+nomes = ["lucas", "rafaela", "junior", "paloma"]  # Lista de nomes separados por ", "
+print(nomes) # Apenas para checar a saída
+quantidadeNomes = len(nomes) # Servirá para saber a quantidade de nomes existente na lista
+print(quantidadeNomes) # Checar saída
+escolhaAleatoria = random.randint(0, quantidadeNomes - 1) # Aa escolha é da primeira posição 0 até a quantidade de nomes que existir -1 
+print(escolhaAleatoria) # Checar saída
+print(f'Quem irá pagar a conta é {nomes[escolhaAleatoria]}') # Aqui é o resultado
+
+                        
