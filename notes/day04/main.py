@@ -58,7 +58,7 @@
 
 # Definição: estrutura de dados que permite armazenar uma coleção de itens em uma única variável. 
 # As listas são mutáveis, o que significa que podem ser modificadas após serem criadas.
-<<<<<<< HEAD
+
 # A listas começam, em Python, em 0.
 
 # estadosBrasil = [ 
@@ -101,18 +101,15 @@
 
 ## Quem vai pagar a conta?
 
-import random 
+# import random 
 
-nomes = ["lucas", "rafaela", "junior", "paloma"]  # Lista de nomes separados por ", "
-print(nomes) # Apenas para checar a saída
-quantidadeNomes = len(nomes) # Servirá para saber a quantidade de nomes existente na lista
-print(quantidadeNomes) # Checar saída
-escolhaAleatoria = random.randint(0, quantidadeNomes - 1) # Aa escolha é da primeira posição 0 até a quantidade de nomes que existir -1 
-print(escolhaAleatoria) # Checar saída
-print(f'Quem irá pagar a conta é {nomes[escolhaAleatoria]}') # Aqui é o resultado
-
-                        
-=======
+# nomes = ["lucas", "rafaela", "junior", "paloma"]  # Lista de nomes separados por ", "
+# print(nomes) # Apenas para checar a saída
+# quantidadeNomes = len(nomes) # Servirá para saber a quantidade de nomes existente na lista
+# print(quantidadeNomes) # Checar saída
+# escolhaAleatoria = random.randint(0, quantidadeNomes - 1) # Aa escolha é da primeira posição 0 até a quantidade de nomes que existir -1 
+# print(escolhaAleatoria) # Checar saída
+# print(f'Quem irá pagar a conta é {nomes[escolhaAleatoria]}') # Aqui é o resultado                
 
 # exemploLista = ["casa", 2, True, "carro", 2.1]
 
@@ -131,4 +128,3 @@ print(f'Quem irá pagar a conta é {nomes[escolhaAleatoria]}') # Aqui é o resul
 # dirty_dozen = [fruits, vegetables]
  
 # print(dirty_dozen[1][3])
->>>>>>> 764f897 (New notes, tests and more)
