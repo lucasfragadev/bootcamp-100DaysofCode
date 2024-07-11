@@ -58,6 +58,7 @@
 
 # Definição: estrutura de dados que permite armazenar uma coleção de itens em uma única variável. 
 # As listas são mutáveis, o que significa que podem ser modificadas após serem criadas.
+<<<<<<< HEAD
 # A listas começam, em Python, em 0.
 
 # estadosBrasil = [ 
@@ -111,3 +112,23 @@ print(escolhaAleatoria) # Checar saída
 print(f'Quem irá pagar a conta é {nomes[escolhaAleatoria]}') # Aqui é o resultado
 
                         
+=======
+
+# exemploLista = ["casa", 2, True, "carro", 2.1]
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+
+# print(fruits[-5])
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# fruits[-1] = "Melons"
+# fruits.append("Lemons")
+# print(fruits)
+
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+# dirty_dozen = [fruits, vegetables]
+ 
+# print(dirty_dozen[1][3])
+>>>>>>> 764f897 (New notes, tests and more)
