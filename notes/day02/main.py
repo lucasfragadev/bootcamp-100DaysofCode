@@ -47,13 +47,14 @@
 # time.sleep(2)
 # print(f"Ainda te restam {time_in_yr} anos ou {time_in_months} meses ou {time_left} semanas ou {time_in_days} dias. ")
 
-print("Bem vindo a calculadora de conta! ")
-total_conta = input("Qual o valor total da conta? ")
-gorjeta = int(input("Quanto de gorjeta pretende dar? 10, 12 ou 15 (%)? "))
-qnt_pessoas = input("Quantas pessoas irão dividir a conta? ")
-qnt_pessoas_float = float(qnt_pessoas)
-total_conta_float = float(total_conta)
-total_conta_com_gorjeta = total_conta_float + (total_conta_float * (gorjeta / 100))
-print(f"O valor total da conta com a porcentagem aplicada é de {total_conta_com_gorjeta}")
-valor_cada = total_conta_com_gorjeta / qnt_pessoas_float
-print(f"Por isso, cada pessoa deverá pagar R$ {valor_cada:.2f}. ")
+# print("Bem vindo a calculadora de conta! ")
+# total_conta = input("Qual o valor total da conta? ")
+# gorjeta = int(input("Quanto de gorjeta pretende dar? 10, 12 ou 15 (%)? "))
+# qnt_pessoas = input("Quantas pessoas irão dividir a conta? ")
+# qnt_pessoas_float = float(qnt_pessoas)
+# total_conta_float = float(total_conta)
+# total_conta_com_gorjeta = total_conta_float + (total_conta_float * (gorjeta / 100))
+# print(f"O valor total da conta com a porcentagem aplicada é de {total_conta_com_gorjeta}")
+# valor_cada = total_conta_com_gorjeta / qnt_pessoas_float
+# print(f"Por isso, cada pessoa deverá pagar R$ {valor_cada:.2f}. ")
+
